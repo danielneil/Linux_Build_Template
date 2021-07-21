@@ -1,11 +1,8 @@
 ---
-- name: Mako - Shark's data getterer
-  hosts: shark-nifi-server
+- name: Build Template
+  hosts: server
   vars:
-    # ---- We're interested in the timezone of the ASX.
     timezone: "Australia/Sydney"
   become: true
   roles:
-  - server-prep
-  - nifi
-  - mako
+  - first-role
