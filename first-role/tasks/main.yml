@@ -1,8 +1,0 @@
----
-# tasks file for first-role
-- name: List files in tmp dir (for tests)
-  shell: 'ls -l /tmp'
-  register: command_output
-
-- debug:
-   var: command_output.stdout_lines

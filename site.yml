@@ -5,4 +5,4 @@
     timezone: "Australia/Sydney"
   become: true
   roles:
-  - first-role
+  - server-init
