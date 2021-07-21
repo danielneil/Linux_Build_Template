@@ -11,7 +11,7 @@
    name: fail2ban
    state: latest
 
-- name: Enabling the fail2ban
+- name: Enabling fail2ban from boot. 
   service:
    name: fail2ban
    state: started
