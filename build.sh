@@ -5,4 +5,4 @@ set -e
 
 ##################################################
 # Now run the playbook.
-ansible-playbook ./site.yml -i hosts --ask-sudo-pass
+ansible-playbook ./site.yml -i hosts  
