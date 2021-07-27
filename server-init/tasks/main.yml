@@ -2,12 +2,12 @@
 # tasks file for first-role
 
 - name: Updating the server
-  yum:
+  package:
    name: '*'
    state: latest
 
 - name: Installing fail2ban
-  yum:
+  package:
    name: fail2ban
    state: latest
 
